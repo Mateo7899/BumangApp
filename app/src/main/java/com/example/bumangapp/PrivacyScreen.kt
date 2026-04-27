@@ -39,8 +39,8 @@ fun PrivacyScreen(navController: NavController) {
     ) {
         // Logo
         Image(
-            painter = painterResource(id = R.drawable.img_logo_movebga), // 👈 usa tu recurso real
-            contentDescription = "Logo MoveBGA",
+            painter = painterResource(id = R.drawable.ic_bumang_logo), // 👈 Actualizado
+            contentDescription = "Logo BumangApp",
             modifier = Modifier
                 .size(120.dp)
                 .padding(top = 24.dp)

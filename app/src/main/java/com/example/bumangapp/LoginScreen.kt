@@ -1,5 +1,6 @@
 package com.example.bumangapp
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -57,14 +58,12 @@ fun LoginScreen(onClickRegister : ()-> Unit = {}, onSuccessfulLogin : ()-> Unit 
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            Icon(
-                painter = painterResource(id = R.drawable.ic_bus),
+            Image(
+                painter = painterResource(id = R.drawable.ic_bumang_logo),
                 contentDescription = "Logo",
                 modifier = Modifier
-                    .size(120.dp)
-                    .background(Color.Gray, shape = RoundedCornerShape(100.dp))
-                    .padding(20.dp),
-                tint = Color.White
+                    .size(160.dp)
+                    .padding(8.dp)
             )
 
             Spacer(modifier = Modifier.height(16.dp))

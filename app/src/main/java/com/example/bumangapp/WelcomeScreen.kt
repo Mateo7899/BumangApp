@@ -32,16 +32,13 @@ fun WelcomeScreen(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            // New Bus Logo Placeholder (User's Gray circle icon should be used here)
-            // For now using ic_bus if available, or a generic placeholder
-            Icon(
-                painter = painterResource(id = R.drawable.ic_bus),
+            // New BumangApp Logo
+            Image(
+                painter = painterResource(id = R.drawable.ic_bumang_logo),
                 contentDescription = "BumangApp Logo",
                 modifier = Modifier
-                    .size(150.dp)
-                    .background(Color.Gray, shape = RoundedCornerShape(100.dp))
-                    .padding(24.dp),
-                tint = Color.White
+                    .size(220.dp)
+                    .padding(16.dp)
             )
 
             Spacer(modifier = Modifier.height(24.dp))
