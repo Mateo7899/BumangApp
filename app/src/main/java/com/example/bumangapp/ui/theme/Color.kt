@@ -2,10 +2,18 @@ package com.example.bumangapp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+// New BumangApp Palette
+val BumangRed = Color(0xFFD32F2F)
+val BumangLightPink = Color(0xFFFFF5F5)
+val BumangGray = Color(0xFF757575)
+val BumangDarkGray = Color(0xFF212121)
+val BumangWhite = Color(0xFFFFFFFF)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+// Legacy Material 3 colors (keeping them but pointing to new palette)
+val Purple80 = Color(0xFFEF9A9A) // Light Red
+val PurpleGrey80 = Color(0xFFBDBDBD)
+val Pink80 = Color(0xFFFFCDD2)
+
+val Purple40 = Color(0xFFD32F2F) // BumangRed
+val PurpleGrey40 = Color(0xFF616161)
+val Pink40 = Color(0xFFB71C1C)
