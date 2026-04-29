@@ -30,7 +30,7 @@
             position = CameraPosition.fromLatLngZoom(defaultLocation, 13f)
         }
 
-        val busIcon = remember { bitmapDescriptorFromVector(context, R.drawable.ic_bus) }
+        val busIcon = remember { bitmapDescriptorFromVector(context, R.drawable.ic_bumang_logo) }
         val busPositions by busViewModel.busPositions.collectAsState()
 
         var userLocation by remember { mutableStateOf<LatLng?>(null) }
